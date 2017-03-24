@@ -1,7 +1,7 @@
 # macprofiles
 mac profile, .zshrc .vimrc  etc.
 ---
-##.zshrc
+## .zshrc
 1. Change default shell
 ```shell
 chsh -s $(which zsh)
@@ -9,8 +9,8 @@ chsh -s $(which zsh)
 
 2. Modify `.zshrc`
 
-##.vimrc
-1. use [vundle](https://github.com/gmarik/Vundle.vim)
+## .vimrc
+1. Use [Vundle](https://github.com/gmarik/Vundle.vim)
 ```shell
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
