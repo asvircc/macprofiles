@@ -1,3 +1,10 @@
+# Add PATH
+PATH=/usr/sbin:/sbin:/opt/X11/bin:${PATH}
+PATH=/usr/local/bin:${PATH}
+export PATH
+
+source ~/.bash_profile
+
 # modify the prompt to contain git branch name if applicable
 git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null)
@@ -70,7 +77,7 @@ fi
 export PATH="$HOME/.bin:$PATH"
 
 # mkdir .git/safe in the root of repositories you trust
-export PATH=".git/safe/../../bin:$PATH"
+# export PATH=".git/safe/../../bin:$PATH"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
